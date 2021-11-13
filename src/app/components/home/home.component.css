@@ -1,11 +1,12 @@
 .home-container {
   display: flex;
+  justify-content: space-between;
 }
 
 .home-section-left {
   display: flex;
   flex-direction: column;
-  width: 35%;
+  width: 32%;
 }
 
 .home-section-right {
