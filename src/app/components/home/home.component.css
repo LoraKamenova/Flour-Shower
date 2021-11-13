@@ -1,0 +1,42 @@
+.home-container {
+  display: flex;
+}
+
+.home-section-left {
+  display: flex;
+  width: 35%;
+}
+
+.home-section-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 65%;
+}
+
+.home-heading {
+  font-family: 'Great Vibes', cursive;
+  font-size: 60px;
+}
+
+.home-sub-heading {
+  font-family: 'Yuji Syuku', serif;
+  font-size: 25px;
+}
+
+/* Just add .fade-in class to element */
+
+.fade-in {
+  animation: fadeIn 3s;
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

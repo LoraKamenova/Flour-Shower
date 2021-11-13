@@ -1,1 +1,39 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home-container {
+  min-width: 100vh;
+  min-height: 100vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url('https://res.cloudinary.com/dyhmxus4n/image/upload/v1636809285/Angular%20Project%202/eggs-sprinkled-with-wheat-white-flour-on-wooden-board_jagcga.jpg');
+}
+
+/*.background {*/
+/*  background-position: center center;*/
+/*  background-repeat: no-repeat;*/
+/*  background-attachment: fixed;*/
+/*  background-size: cover;*/
+/*  background-color: #464646;*/
+/*  background-image: url('https://res.cloudinary.com/dyhmxus4n/image/upload/v1636809285/Angular%20Project%202/eggs-sprinkled-with-wheat-white-flour-on-wooden-board_jagcga.jpg');*/
+/*}*/
+
+/*.background:after {*/
+/*  content: '';*/
+/*  display: block;*/
+/*  background-color: rgba(0, 0, 0, 0.9);*/
+/*  width: 100%;*/
+/*  height: 100%;*/
+/*  position: fixed;*/
+/*  top: 0;*/
+/*  left: 0;*/
+/*  z-index: -1;*/
+/*}*/
