@@ -3,24 +3,23 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { AsideNavigationComponent } from './components/shared/aside-navigation/aside-navigation.component';
 import { HomeComponent } from './components/home/home.component';
-import { BottomNavigationComponent } from './components/shared/bottom-navigation/bottom-navigation.component';
 import {ProductsModule} from './components/products/products.module';
+import {SharedModule} from './components/shared/shared.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AsideNavigationComponent,
-    HomeComponent,
-    BottomNavigationComponent
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ProductsModule
+    ProductsModule,
+    SharedModule,
   ],
   providers: [],
+  exports: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

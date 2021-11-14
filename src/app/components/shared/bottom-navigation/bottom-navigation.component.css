@@ -1,0 +1,27 @@
+.bottom-navbar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-list {
+  display: flex;
+  border-top: 1px solid black;
+}
+
+.navbar-list-item {
+  list-style-type: none;
+  margin: 10px;
+}
+
+.navbar-link {
+  color: black;
+  text-transform: uppercase;
+  font-family: 'Yuji Syuku', serif;
+  text-decoration: none;
+}
+
+.navbar-link:hover {
+  font-weight: bolder;
+  color: firebrick;
+}
