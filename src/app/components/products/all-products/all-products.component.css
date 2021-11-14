@@ -16,7 +16,7 @@
   width: 100%;
   justify-content: center;
   align-items: end;
-  padding: 70px 0;
+  padding: 30px 0;
   flex-grow: 1;
 }
 
@@ -68,4 +68,17 @@
   top: 100%;
   width: 0;
   border-top: 31.75px solid #FFBF00;
+}
+
+.hexagon:hover {
+  background: #FFF44F;
+  /*border: 2px solid rebeccapurple;*/
+}
+
+.hexagon:hover:before {
+  border-bottom: 31.75px solid #FFF44F;
+}
+
+.hexagon:hover:after {
+  border-top: 31.75px solid #FFF44F;
 }

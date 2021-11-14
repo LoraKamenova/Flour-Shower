@@ -1,0 +1,34 @@
+.top-navbar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-list {
+  display: flex;
+  border-bottom: 1px solid black;
+}
+
+.navbar-list-item {
+  list-style-type: none;
+  padding: 10px;
+}
+
+.navbar-link {
+  color: black;
+  text-transform: uppercase;
+  font-family: 'Yuji Syuku', serif;
+  text-decoration: none;
+}
+
+.navbar-list-item:hover {
+  /*font-weight: bolder;*/
+  background: rgba(0,0,0, 0.3);
+  color: white;
+}
+
+.navbar-link:hover {
+  color: white;
+}
+
+
