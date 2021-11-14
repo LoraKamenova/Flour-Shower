@@ -16,28 +16,56 @@
   width: 100%;
   justify-content: center;
   align-items: end;
-  padding: 70px;
+  padding: 70px 0;
   flex-grow: 1;
 }
 
 .products-categories-container {
   display: flex;
-  width: 50%;
+  width: 95%;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .product-category {
-  width: 30%;
-  padding: 10px 5px;
-  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   text-transform: uppercase;
   font-family: 'Yuji Syuku', serif;
-  font-size: 25px;
+  font-size: 15px;
 }
 
 .product-category:hover {
   cursor: pointer;
-  background: rgba(0,0,0, 0.3);
-  color: white;
+  font-weight: bolder;
+}
+
+.hexagon {
+  position: relative;
+  width: 110px;
+  height: 63.51px;
+  background-color: #FFBF00;
+  margin: 31.75px 3px;
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 55px solid transparent;
+  border-right: 55px solid transparent;
+}
+
+.hexagon:before {
+  bottom: 100%;
+  border-bottom: 31.75px solid #FFBF00;
+}
+
+.hexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 31.75px solid #FFBF00;
 }

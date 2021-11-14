@@ -11,7 +11,7 @@
 
 .navbar-list-item {
   list-style-type: none;
-  margin: 10px;
+  padding: 10px;
 }
 
 .navbar-link {
@@ -21,7 +21,14 @@
   text-decoration: none;
 }
 
-.navbar-link:hover {
-  font-weight: bolder;
-  color: firebrick;
+.navbar-list-item:hover {
+  /*font-weight: bolder;*/
+  background: rgba(0,0,0, 0.3);
+  color: white;
 }
+
+.navbar-link:hover {
+  color: white;
+}
+
+
