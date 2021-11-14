@@ -1,0 +1,39 @@
+.all-products-container {
+  display: flex;
+  flex-direction: column;
+  min-width: 100vh;
+  min-height: 100vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-image: url('https://static.vecteezy.com/system/resources/previews/002/054/806/non_2x/organic-ingredients-on-shabby-white-background-free-photo.jpg');
+}
+
+.products-upper-section {
+  display: flex;
+  width: 100%;
+  min-height: 40vh;
+}
+
+.products-lower-section {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+}
+
+.products-categories-container {
+  display: flex;
+  width: 50%;
+  flex-wrap: wrap;
+}
+
+.product-category {
+  width: 30%;
+  border: 2px solid black;
+  padding: 10px 5px;
+  margin: 5px;
+  text-align: center;
+}

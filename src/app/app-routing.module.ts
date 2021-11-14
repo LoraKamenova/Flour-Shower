@@ -5,6 +5,7 @@ import {HomeComponent} from './components/home/home.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
+  {path: 'products', loadChildren: './components/products/products.module#ProductsModule'},
 
 ];
 

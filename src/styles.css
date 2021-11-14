@@ -9,16 +9,6 @@
   box-sizing: border-box;
 }
 
-.home-container {
-  min-width: 100vh;
-  min-height: 100vh;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-image: url('https://res.cloudinary.com/dyhmxus4n/image/upload/v1636809285/Angular%20Project%202/eggs-sprinkled-with-wheat-white-flour-on-wooden-board_jagcga.jpg');
-}
-
 /*.background {*/
 /*  background-position: center center;*/
 /*  background-repeat: no-repeat;*/
