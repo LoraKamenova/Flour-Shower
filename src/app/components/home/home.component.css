@@ -47,3 +47,17 @@
     opacity: 1;
   }
 }
+
+.fade-in-2 {
+  animation: fadeIn 5s;
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
