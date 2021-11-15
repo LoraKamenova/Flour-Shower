@@ -4,12 +4,14 @@ import {AllProductsComponent} from './all-products/all-products.component';
 import {RouterModule} from '@angular/router';
 import {SharedModule} from '../shared/shared.module';
 import { MeatComponent } from './meat/meat.component';
+import { SeafoodComponent } from './seafood/seafood.component';
 
 
 @NgModule({
   declarations: [
     AllProductsComponent,
     MeatComponent,
+    SeafoodComponent,
   ],
   imports: [
     CommonModule,
@@ -18,6 +20,7 @@ import { MeatComponent } from './meat/meat.component';
       {path: '', pathMatch: 'full', redirectTo: 'home'},
       {path: 'all', component: AllProductsComponent},
       {path: 'meat', component: MeatComponent},
+      {path: 'seafood', component: SeafoodComponent},
     ]),
   ]
 })

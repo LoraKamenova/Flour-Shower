@@ -1,0 +1,39 @@
+.meat-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 100vh;
+  min-height: 100vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-image: url('https://scontent.fsof11-1.fna.fbcdn.net/v/t1.6435-9/82291916_116005446586990_3663038767645589504_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=e3f864&_nc_ohc=7LfFCHcujXQAX_fmX77&_nc_ht=scontent.fsof11-1.fna&oh=c3ddc33ca835f46806524d432ba4850c&oe=61BA35C9');
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-grow: 1;
+  width: 100%;
+  padding: 40px 100px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.heading {
+  font-family: 'Great Vibes', cursive;
+  text-align: center;
+  font-size: 80px;
+}
+
+.paragraph {
+  column-count: 3;
+  column-gap: 20px;
+  text-align: justify;
+}
