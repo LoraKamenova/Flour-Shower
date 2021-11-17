@@ -26,7 +26,7 @@ import { GrainComponent } from './grain/grain.component';
       {path: 'meat', component: MeatComponent},
       {path: 'seafood', component: SeafoodComponent},
       {path: 'dairy', component: DairyComponent},
-      {path: 'grain', component: DairyComponent},
+      {path: 'grains', component: GrainComponent},
     ]),
   ]
 })
