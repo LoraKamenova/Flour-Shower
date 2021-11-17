@@ -6,6 +6,7 @@ import {SharedModule} from '../shared/shared.module';
 import { MeatComponent } from './meat/meat.component';
 import { SeafoodComponent } from './seafood/seafood.component';
 import { DairyComponent } from './dairy/dairy.component';
+import { GrainComponent } from './grain/grain.component';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import { DairyComponent } from './dairy/dairy.component';
     MeatComponent,
     SeafoodComponent,
     DairyComponent,
+    GrainComponent,
   ],
   imports: [
     CommonModule,
