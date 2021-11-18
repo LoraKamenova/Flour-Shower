@@ -13,8 +13,8 @@
 
 .section {
   display: flex;
-  justify-content: center;
-  align-items: flex-end;
+  justify-content: flex-start;
+  align-items: center;
   flex-grow: 1;
   width: 100%;
   padding: 40px 100px;
