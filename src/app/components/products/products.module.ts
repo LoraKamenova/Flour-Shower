@@ -29,6 +29,7 @@ import { VegetablesComponent } from './vegetables/vegetables.component';
       {path: 'seafood', component: SeafoodComponent},
       {path: 'dairy', component: DairyComponent},
       {path: 'grains', component: GrainComponent},
+      {path: 'vegetables', component: GrainComponent},
     ]),
   ]
 })
