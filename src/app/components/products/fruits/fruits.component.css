@@ -13,11 +13,11 @@
 
 .section {
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  justify-content: flex-end;
+  align-items: flex-start;
   flex-grow: 1;
   width: 100%;
-  padding: 40px 100px;
+  padding: 60px 100px;
 }
 
 .content {
