@@ -9,6 +9,7 @@ import { DairyComponent } from './dairy/dairy.component';
 import { GrainComponent } from './grain/grain.component';
 import { VegetablesComponent } from './vegetables/vegetables.component';
 import { FruitsComponent } from './fruits/fruits.component';
+import { MushroomComponent } from './mushroom/mushroom.component';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { FruitsComponent } from './fruits/fruits.component';
     GrainComponent,
     VegetablesComponent,
     FruitsComponent,
+    MushroomComponent,
   ],
   imports: [
     CommonModule,
