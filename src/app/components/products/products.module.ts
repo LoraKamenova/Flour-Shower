@@ -35,6 +35,7 @@ import { MushroomComponent } from './mushroom/mushroom.component';
       {path: 'grains', component: GrainComponent},
       {path: 'vegetables', component: VegetablesComponent},
       {path: 'fruits', component: FruitsComponent},
+      {path: 'mushrooms', component: MushroomComponent},
     ]),
   ]
 })
