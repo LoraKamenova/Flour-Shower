@@ -13,17 +13,17 @@
 
 .section {
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-start;
+  justify-content: flex-start;
+  align-items: center;
   flex-grow: 1;
   width: 100%;
-  padding: 50px 200px 0 0;
+  padding: 0 100px;
 }
 
 .content {
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 45%;
 }
 
 .heading {
