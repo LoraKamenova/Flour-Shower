@@ -1,0 +1,39 @@
+.fruits-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 100vh;
+  min-height: 100vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-image: url('https://res.cloudinary.com/dyhmxus4n/image/upload/v1637785787/Angular%20Project%202/prevencao-calculo-renal_njo23f.jpg');
+}
+
+.section {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-grow: 1;
+  width: 100%;
+  padding: 50px 200px 0 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.heading {
+  font-family: 'Great Vibes', cursive;
+  text-align: center;
+  font-size: 80px;
+}
+
+.paragraph {
+  column-count: 2;
+  column-gap: 20px;
+  text-align: justify;
+}
