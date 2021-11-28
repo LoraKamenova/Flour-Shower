@@ -38,6 +38,7 @@ import { NutsComponent } from './nuts/nuts.component';
       {path: 'vegetables', component: VegetablesComponent},
       {path: 'fruits', component: FruitsComponent},
       {path: 'mushrooms', component: MushroomComponent},
+      {path: 'nuts', component: NutsComponent},
     ]),
   ]
 })
