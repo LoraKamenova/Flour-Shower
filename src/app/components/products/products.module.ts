@@ -41,6 +41,7 @@ import { SpicesComponent } from './spices/spices.component';
       {path: 'fruits', component: FruitsComponent},
       {path: 'mushrooms', component: MushroomComponent},
       {path: 'nuts', component: NutsComponent},
+      {path: 'spices', component: SpicesComponent},
     ]),
   ]
 })
