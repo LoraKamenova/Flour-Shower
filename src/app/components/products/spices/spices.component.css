@@ -1,0 +1,39 @@
+.spices-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 100vh;
+  min-height: 100vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-image: url('https://docplayer.nl/docs-images/98/135959123/images/4-0.jpg');
+}
+
+.section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-grow: 1;
+  width: 100%;
+  padding: 50px 100px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.heading {
+  font-family: 'Great Vibes', cursive;
+  text-align: center;
+  font-size: 80px;
+}
+
+.paragraph {
+  column-count: 2;
+  column-gap: 20px;
+  text-align: justify;
+}
