@@ -12,6 +12,7 @@ import { FruitsComponent } from './fruits/fruits.component';
 import { MushroomComponent } from './mushroom/mushroom.component';
 import { NutsComponent } from './nuts/nuts.component';
 import { SpicesComponent } from './spices/spices.component';
+import { OtherProductsComponent } from './other-products/other-products.component';
 
 
 @NgModule({
@@ -26,6 +27,7 @@ import { SpicesComponent } from './spices/spices.component';
     MushroomComponent,
     NutsComponent,
     SpicesComponent,
+    OtherProductsComponent,
   ],
   imports: [
     CommonModule,
