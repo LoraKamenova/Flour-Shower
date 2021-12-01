@@ -44,6 +44,7 @@ import { OtherProductsComponent } from './other-products/other-products.componen
       {path: 'mushrooms', component: MushroomComponent},
       {path: 'nuts', component: NutsComponent},
       {path: 'spices', component: SpicesComponent},
+      {path: 'other-products', component: OtherProductsComponent},
     ]),
   ]
 })
