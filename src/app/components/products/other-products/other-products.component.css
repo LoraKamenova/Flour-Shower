@@ -14,7 +14,7 @@
 .section {
   display: flex;
   justify-content: flex-end;
-  align-items: flex-end;
+  align-items: center;
   flex-grow: 1;
   width: 100%;
   padding: 50px 100px;
