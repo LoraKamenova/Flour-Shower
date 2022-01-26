@@ -34,6 +34,6 @@
 
 .paragraph {
   column-count: 3;
-  column-gap: 20px;
+  column-gap: 10px;
   text-align: justify;
 }
