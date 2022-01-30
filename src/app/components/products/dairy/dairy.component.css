@@ -33,7 +33,7 @@
 }
 
 .paragraph {
-  column-count: 3;
+  column-count: 2;
   column-gap: 10px;
   text-align: justify;
 }
